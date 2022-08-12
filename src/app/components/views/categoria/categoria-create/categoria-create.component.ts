@@ -19,6 +19,10 @@ export class CategoriaCreateComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  cancel():void{
+    this.router.navigate([`categorias`])
+  }
+
   create(): void {
     this.service.create(this.categoria).subscribe((resposta) => {
       this.router.navigate([`categorias`])
@@ -29,4 +33,5 @@ export class CategoriaCreateComponent implements OnInit {
       }
     })
   }
+
 }
