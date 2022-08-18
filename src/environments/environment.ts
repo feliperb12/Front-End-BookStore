@@ -17,5 +17,5 @@ export const environment = {
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
 
 
-//https://bookstore-api-felipe.herokuapp.com/
+//https://bookstore-api-felipe.herokuapp.com
 //http://localhost:8080
